@@ -1,0 +1,5 @@
+name: qhtxl
+version: 1
+handle:
+- passwdaccess:  passwd "ssybb1988:12171217"
+- rewrite: if(!is_dir() && !is_file() && path~"^(.*)$") goto "index.php/$1"

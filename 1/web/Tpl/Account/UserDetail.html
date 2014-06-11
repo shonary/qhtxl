@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>{$name}的活动</title>
+<link href="__ROOT__/Tpl/Public/Css/main.css" media="screen" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="__ROOT__/Tpl/Public/Js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript">
+</script>
+</head>
+<body class="echo gray">
+<div class="page-wrap">
+<div class="page-container">
+
+<include file="./Tpl/Public/top.html"/>
+	<div class="page-content container_24">
+		<div class="main grid_17 no-line">
+			<div class="page-olist mindmaps">
+				<div class="mindmap">
+					<div class="grid_3 alpha">
+						<div class="m-avatar">
+						</div>
+					</div>	
+					<div class="grid_14 omega">
+						 <div class="box">
+							<div class="data">	
+								<div class="thumb" >
+								<span class="title">昵称：</span><span class="content">{$User.uNickName}</span>
+								<span class="title">邮箱：</span><span class="content">{$User.uEmail}</span>
+								<span class="title">新浪微博：</span><span class="content">{$User.uAcWeibo}</span>
+								<span class="title">腾讯微博：</span><span class="content">{$User.uAcTencent}</span>
+								<span class="title">人人网：</span><span class="content">{$User.uAcRenRen}</span>
+								</div>									
+							</div>	
+							<div class="picbox">
+								<img src="{$User.photoPath}" alt="{$User.uNickName}" class="logo"/>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			<div class="grid_16 alpha">
+				<div class="page-paginate"></div>
+			</div>
+		</div>
+		
+		<include file="./Tpl/Public/right.html"/>
+	</div>
+</div>
+</div>
+
+<include file="./Tpl/Public/foot.html"/>
+
+</body>
+</html>

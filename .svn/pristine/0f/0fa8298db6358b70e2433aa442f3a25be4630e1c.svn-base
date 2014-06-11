@@ -1,0 +1,100 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+   <meta http-equiv=Content-Type content="text/html;charset=utf-8">
+   <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
+   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+   <!-- Mobile viewport optimized: h5bp.com/viewport -->
+   <meta name="viewport" content="width=device-width">
+
+   <title>{$sys_sitename}</title>
+
+   <meta name="robots" content="noindex, nofollow">
+   <meta name="description" content="云海通讯录" />
+   <meta name="keywords" content="云海通讯录" />
+   <meta name="author" content="ShenYubao<ssybb1988@gmail.com>"/>
+   
+   <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+   <import type='css' file="css.bootstrap" />
+   <import type='css' file="css.bootstrap-responsive" />
+   <import type='css' file="css.bootmetro" />
+   <import type='css' file="css.bootmetro-tiles" />
+   <import type='css' file="css.bootmetro-charms" />
+   <import type='css' file="css.metro-ui-light" />
+   <import type='css' file="css.icomoon" />
+
+   <!--  these two css are to use only for documentation -->
+   <import type='css' file="Css.demo" />
+   <import type='js' file="js.google-code-prettify.prettify" />
+   
+   <!-- Le fav and touch icons -->
+   <link rel="shortcut icon" href="content/ico/favicon.ico">
+   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="content/ico/apple-touch-icon-144-precomposed.png">
+   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="content/ico/apple-touch-icon-114-precomposed.png">
+   <link rel="apple-touch-icon-precomposed" sizes="72x72" href="content/ico/apple-touch-icon-72-precomposed.png">
+   <link rel="apple-touch-icon-precomposed" href="content/ico/apple-touch-icon-57-precomposed.png">
+  
+   <import type='js' file="js.google-code-prettify.prettify"  basepath="./Public" />
+   <script src="scripts/modernizr-2.6.1"></script>
+
+   <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-3182578-6']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+   </script>
+</head>
+<body data-accent="blue">
+   <header id="nav-bar" class="container-fluid">
+      <div class="row-fluid">
+         <div class="span8">
+            <div id="header-container">
+               <a id="backbutton" class="win-backbutton" href="__APP__/Index/index"></a>
+               <h5>{$sys_sitename}</h5>
+               <div class="dropdown">
+                  <a class="header-dropdown dropdown-toggle accent-color" data-toggle="dropdown" href="#" >
+                     {$sys_pagename}
+                     <b class="caret"></b>
+                  </a>
+                  <ul class="dropdown-menu">
+                  <li><a href="./hub.html">Hub</a></li>
+                  <li><a href="./tiles-templates.html">Tile Templates</a></li>
+                  <li><a href="./listviews.html">ListViews</a></li>
+                  <li><a href="./appbar-demo.html">Demo App-Bar</a></li>
+                  <li><a href="./table.html">Demo Table</a></li>
+                  <li><a href="./icons.html">Icons</a></li>
+                  <li><a href="./scaffolding.html">Bootstrap Scaffolding</a></li>
+                  <li><a href="./base-css.html">Bootstrap Base CSS</a></li>
+                  <li><a href="./components.html">Bootstrap Components</a></li>
+                  <li><a href="./javascript.html">Bootstrap Javascript</a></li>
+                  <li class="divider"></li>
+                  <li><a href="./index.html">Home</a></li>
+               </ul>
+            </div>
+            </div>
+         </div>
+         <div id="top-info" class="pull-right">
+         <a href="#" class="pull-left">
+            <div class="top-info-block">
+               <h3>{$sys_user_firstname}</h3>
+               <h4>{$sys_user_lastname}</h4>
+            </div>
+            <div class="top-info-block">
+               <b class="icon-user"></b>
+            </div>
+         </a>
+         <hr class="separator pull-left"/>
+         <a id="settings" class="pull-left" href="#">
+            <b class="icon-settings"></b>
+         </a>
+      </div>
+   </div>
+   </header>

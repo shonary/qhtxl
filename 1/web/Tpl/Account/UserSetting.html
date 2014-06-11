@@ -1,0 +1,106 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<link href="__ROOT__/Tpl/Public/Css/main.css" media="screen" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="__ROOT__/Tpl/Public/Js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="__ROOT__/Tpl/Public/Js/Validate.js"></script>
+<script type="text/javascript">
+function ErrMsg(str){
+	alert(str);
+}
+function CheckValidate(){
+	alert('Enter');
+	if(jsTrim($("#name").attr("value")).length<3){
+		ErrMsg("昵称过短(最小长度为3)");
+		return;
+	}else if(jsTrim($("#uMotto").attr("value")).length<3){
+		ErrMsg("座右铭过长(最长45个字符)");
+		return;
+	}
+	
+	if($("#new_password").attr("value").length>0){
+		if(jsTrim($("#new_password").attr("value")).length<6){
+			ErrMsg("密码过短(最小长度为6)");
+			return;
+		}else if(jsTrim($("#uMotto").attr("value")).length>45){
+			ErrMsg("密码过长(最大长度为45)");
+			return;		
+		}else if($("#new_password").attr("value")!=$("#new_password_confirmation").attr("value")){
+			ErrMsg("请检查两次输入密码是否相同");
+			return;
+		}
+	}
+	alert('现在提交楼');
+	$("#Setting")[0].submit();
+}
+</script>
+</head>
+<body class='gray'>
+<div class='page-wrap'>
+	<div class='page-container'>
+		
+		<include file="./Tpl/Public/top.html"/>
+		<div class='page-content container_24'>
+			<div class='mside grid_5'>
+			<div class="page-account-links">	
+				<div class='link base selected'><a href="http://zhaoji.sinaapp.com/index.php/Index/index"><div class='icon'></div>返回</a></div>
+				<!-- <div class='link avatared '><a href="/account/avatared"><div class='icon'></div>修改头像</a></div>
+				<div class='link bind-tsina '><a href="/account/tsina"><div class='icon'></div>关联新浪微博</a></div> -->
+			</div>
+				<div class='page-account-split' style='height:3px;border-top:solid 1px #ccc;border-bottom:solid 1px #ccc;margin-bottom:10px;'></div>
+			</div>
+			
+			<div class='main grid_19'>
+			<div class='page-setting-base'>
+				<div class='title'>基本信息设置</div>
+					<div class='form base aj-submit-form'>
+					<form action="__APP__/Account/CheckSetting" class="edit_user" id="Setting" method="post">
+						<div style="margin:0;padding:0;display:inline">
+						<input name="_method" type="hidden" value="put" /></div>
+						<div class='field'>
+						<label>电子邮件</label>
+						<div class='ip mail'>{$Info.uEmail}</div>
+						</div>
+						
+						<div class='field'>
+						<label>用户名</label>
+						<div class='ip'><input class="text" id="name" name="uNickName" type="text" value="{$Info.uNickName}" /></div>
+						</div>
+						
+						<div class='field'>
+						<label>签名档</label>
+						<div class='ip'><textarea class="text" id="uMotto" name="uMotto" style="width:200px;">{$Info.uMotto}</textarea></div>
+						
+						</div>
+						<div class='field'>
+						<label>现在的密码</label>
+						<div class='ip'><input class="text" id="old_password" name="old_password" type="password" value="" /></div>
+						</div>
+						<div class='field'>
+						<label>新密码</label>
+						<div class='ip new-password'><input class="text" id="new_password" name="new_password" type="password" value="" /></div>
+						<div class='ip'><input class="text" id="new_password_confirmation" name="new_password_confirmation" type="password" value="" /></div>
+						</div>
+						
+						<div class='field sub'>
+						<a href="javascript:CheckValidate();" class="middlebutton blue a-link-submit">保存更改</a>
+						</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+
+	</div>
+</div>	
+<div class='hide' id='page-hide'>
+<iframe name='upload_frame' src='about:blank' style='width:1px;height:1px;border:0px;'></iframe>
+</div>
+
+<include file="./Tpl/Public/foot.html"/>
+
+</body>
+</html>

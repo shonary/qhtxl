@@ -1,0 +1,160 @@
+[ 2012-10-30T16:00:21+08:00 ] 127.0.0.1 /CloudContact/1/web/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.001870s ]
+INFO: [ view_template ] --END-- [ RunTime:0.014572s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.016502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050340s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.066887s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.068041s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.069284s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.070242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004465s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.071441s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001105s ]
+
+[ 2012-10-30T16:03:07+08:00 ] 127.0.0.1 /CloudContact/1/web/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000260s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.011492s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000588s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.012122s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008868s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.021010s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.021326s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.021549s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.021733s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000975s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.022034s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000229s ]
+
+[ 2012-10-30T17:22:32+08:00 ] 127.0.0.1 /CloudContact/1/?debug_host=10.228.12.48%2C192.168.56.1%2C127.0.0.1&debug_fastfile=1&start_debug=1&debug_port=10137&use_remote=1&original_url=http%3A%2F%2Flocalhost%2FCloudContact%2F1%2F&send_sess_end=1&debug_stop=1&debug_start_session=1&debug_no_cache=1351585426844&debug_session_id=1001
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.155604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.180661s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-16.367492s ]
+INFO: [ view_template ] --END-- [ RunTime:0.038593s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-16.406842s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.783695s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-17.193275s ]
+INFO: Run TokenBuild Behavior [ RunTime:-17.214015s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-17.282395s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-17.300926s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.188151s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-17.384615s ]
+INFO: [ view_end ] --END-- [ RunTime:0.036611s ]
+
+[ 2012-10-30T17:30:06+08:00 ] 127.0.0.1 /CloudContact/1/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.007765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007871s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003849s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003726s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007656s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093114s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.100858s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.101695s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.102413s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.103016s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012088s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.113039s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000622s ]
+
+[ 2012-10-30T17:31:12+08:00 ] 127.0.0.1 /CloudContact/1/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.001238s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000344s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.001616s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017145s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.018781s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.019055s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.019269s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.019451s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000926s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.019775s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000271s ]
+
+[ 2012-10-30T17:31:36+08:00 ] 127.0.0.1 /CloudContact/1/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.001640s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000567s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.002284s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010122s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.012406s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.012684s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.012898s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.013084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000939s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.013399s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000238s ]
+
+[ 2012-10-30T17:31:54+08:00 ] 127.0.0.1 /CloudContact/1/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000288s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.001140s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000325s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.001519s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010053s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.011590s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.011875s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.012087s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.012273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000930s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.012570s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000242s ]
+
+[ 2012-10-30T17:34:13+08:00 ] 127.0.0.1 /CloudContact/1/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.001316s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000594s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.001960s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007685s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.009668s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.010027s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.010314s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.010568s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001215s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.010935s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000295s ]
+

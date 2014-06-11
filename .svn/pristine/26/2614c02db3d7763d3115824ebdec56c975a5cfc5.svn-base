@@ -1,0 +1,20 @@
+@CHARSET "UTF-8";
+.modal-body tr{
+	height:0px;
+}
+
+.modal-body input[type="text"]{
+	margin-bottom: 0px;
+	margin-left: 10px;
+}
+.modal-header h3{
+	color:rgb(36, 160, 218);
+}
+
+#editmodal .modal-body{
+	max-height: 450px;
+}
+
+#editmodal tr{
+	height : 33px;
+}

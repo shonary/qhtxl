@@ -1,0 +1,46 @@
+   <div id="charms" class="win-ui-dark">
+   
+      <div id="theme-charms-section" class="charms-section">
+         <div class="charms-header">
+            <a href="#" class="close-charms win-command">
+               <span class="win-commandimage win-commandring">&#xe05d;</span>
+            </a>
+            <h2>Settings</h2>
+         </div>
+   
+         <div class="row-fluid">
+            <div class="span12">
+               <a href="__APP__/Index/logoff"><button class="win-command">
+                  <span class="win-commandimage win-commandring">&#xe039;</span>
+                  <span class="win-label">注销</span>
+               </button>
+               </a>    
+               <button class="win-command">
+                  <span class="win-commandimage win-commandring">&#xe1fb;</span>
+                  <span class="win-label">关注微博</span>
+               </button>  
+            </div>
+         </div>
+      </div>
+   
+   </div>
+   
+      <!-- Grab Google CDN's jQuery. fall back to local if necessary -->
+   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write("<script src='../Public/jquery-1.8.2.min.js'>\x3C/script>")</script>
+    
+   <import type='js' file="js.google-code-prettify.prettify" />
+   <import type='js' file="js.jquery-mousewheel" />
+   <import type='js' file="js.jquery-scrollTo" />
+   <import type='js' file="js.bootstrap-min" />
+   <import type='js' file="js.bootmetro" />
+   <import type='js' file="js.bootmetro-charms" />
+   <import type='js' file="js.demo" />
+   <import type='js' file="js.holder" />
+
+   <script type="text/javascript">
+      $(".metro").metro();
+   </script>
+   
+</body>
+</html>

@@ -1,0 +1,7 @@
+[ 2012-11-11T15:12:14+08:00 ] ERR: (ThinkException) Access denied for user 'root'@'localhost' (using password: YES)
+[ 2012-11-11T15:12:19+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2012-11-11T15:12:19+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2012-11-11T15:22:21+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2012-11-11T15:22:21+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2012-11-11T15:22:39+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2012-11-11T15:22:39+08:00 ] ERR: (ThinkException) 无法加载模块:Public
